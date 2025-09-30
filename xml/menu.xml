@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/trustcrm/membership-demographics/report</path>
+    <page_callback>CRM_Trustcrm_MembershipDemographics_Page_Report::run</page_callback>
+    <title>Membership Demographics vs Census</title>
+    <access_arguments>access CiviReport</access_arguments>
+    <is_public>false</is_public>
+  </item>
+  <item>
+    <path>civicrm/trustcrm/membership-demographics/settings</path>
+    <page_callback>CRM_Core_Invoke::invoke</page_callback>
+    <title>Membership Demographics Settings</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+    <is_public>false</is_public>
+    <component>Contact</component>
+    <params>crmForm/CRM_Trustcrm_MembershipDemographics_Form_Settings</params>
+  </item>
+</menu>

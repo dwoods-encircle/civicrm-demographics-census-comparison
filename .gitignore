@@ -1,0 +1,12 @@
+# Ignore temporary and build files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.DS_Store
+Thumbs.db
+.cache/
+vendor/
+node_modules/
+.idea/

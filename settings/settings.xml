@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<settings>
+  <setting>
+    <name>trustcrm_md_member_group_ids</name>
+    <type>Array</type>
+    <default></default>
+    <title>Member Groups to Include</title>
+    <description>Only contacts in these CiviCRM groups will be counted as members.</description>
+    <is_domain>1</is_domain>
+    <is_contact>0</is_contact>
+  </setting>
+  <setting>
+    <name>trustcrm_md_gender_field</name>
+    <type>String</type>
+    <default>gender_id</default>
+    <title>Gender Field</title>
+    <description>Contact field name or custom field token to use as gender.</description>
+    <is_domain>1</is_domain>
+  </setting>
+  <setting>
+    <name>trustcrm_md_ethnicity_field</name>
+    <type>String</type>
+    <default></default>
+    <title>Ethnicity Custom Field</title>
+    <description>Custom field token for ethnicity (e.g. custom_12).</description>
+    <is_domain>1</is_domain>
+  </setting>
+  <setting>
+    <name>trustcrm_md_geography_code</name>
+    <type>String</type>
+    <default></default>
+    <title>Census Geography Code</title>
+    <description>ONS/NOMIS geography code for your area (e.g. E10000007 for Derbyshire).</description>
+    <is_domain>1</is_domain>
+  </setting>
+  <setting>
+    <name>trustcrm_md_dataset</name>
+    <type>String</type>
+    <default>census2021</default>
+    <title>Census Dataset Label</title>
+    <description>Arbitrary label to tag the loaded benchmark rows.</description>
+    <is_domain>1</is_domain>
+  </setting>
+  <setting>
+    <name>trustcrm_md_category_mappings</name>
+    <type>Text</type>
+    <default>{}</default>
+    <title>Category Mappings (JSON)</title>
+    <description>JSON mapping of local values to census categories for gender and ethnicity.</description>
+    <is_domain>1</is_domain>
+  </setting>
+</settings>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<extension key="org.trustcrm.membershipdemographics" type="module" name="TrustCRM: Membership Demographics Report" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://docs.civicrm.org/dev/en/latest/xml/schema/Extension.xsd">
+  <file>org.trustcrm.membershipdemographics</file>
+  <name>TrustCRM: Membership Demographics Report</name>
+  <description>Compare membership demographics against ONS/NOMIS census benchmarks, configurable by geography and category mappings.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>TrustCRM</author>
+    <email>support@trustcrm.example</email>
+  </maintainer>
+  <releaseDate>2025-09-30</releaseDate>
+  <version>1.0.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>5.55</ver>
+    <ver>5.99</ver>
+  </compatibility>
+  <civix>24.01.0</civix>
+</extension>
